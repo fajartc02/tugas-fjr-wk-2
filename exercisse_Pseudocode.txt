@@ -1,0 +1,47 @@
+//soal-1
+
+STORE massaBenda with 600 kg
+STORE percepatanBenda with 2 m/s2
+
+CALCULATE massaBenda * percepatanBenda
+SET resultanGaya value with calculation massabenda and percepatanbenda
+
+DISPLAY resultanGaya
+
+
+//soal-2
+STORE inputYear wth any value year
+
+IF "inputYear % 4 == 0 && inputYear % 100 != 0" || "inputYear % 4 == 0 && inputYear % 100 == 0 && inputYear % 400 == 0 " THEN
+  DISPLAY "Tahun Kabisat"
+ELSE
+  DISPLAY "Bukan Tahun Kabisat"
+END IF
+
+
+//soal-3
+GET mesinCuci
+GET pakaian to 0
+
+WHILE pakaian <= 20
+  COMPUTE pakaian + 1
+ENDWHILE
+
+PRINT mesinCuci is on
+
+
+//soal-4
+STORE jumSiswaSiswi
+STORE siswaSiswi
+
+SET jumSiswaSiswi to 0
+REPEAT
+
+  READ siswaSiswi
+  IF siswaSiswi == "kuku tidak panjang" THEN
+    DISPLAY "kamu murid yang baik ibu beri kamu satu permintaan, monggo!"
+  ELSE
+    DISPLAY "ibu akan menghukum kamu loncat dari lantai 2"
+  ENDIF
+
+UNTIL jumSiswaSiswi equal 40
