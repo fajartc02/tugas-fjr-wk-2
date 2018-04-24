@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+        var nama = 'fajar' ;
+        var peran = 'Tabib' ;
+
+        if (nama !== '' && peran ==='')  {
+            console.log('Hallo ' + nama + ', pilih peran untuk memulai game!')
+        } else if (nama !== '' && peran === 'Ksatria') {
+            console.log('Selamat datang di Dunia Proxytia, ' + nama);
+            console.log('Hallo ' + peran + ' ' + nama + ', kamu dapat menyerang dengan senjatamu!');
+        } else if (nama !== '' && peran === 'Tabib') {
+            console.log('Selamat datang di Dunia Proxytia, ' + nama);
+            console.log('Hallo ' + peran + ' ' + nama + ', kamu akan membantu temanmu yang terluka.');
+        } else if (nama !== '' && peran === 'Penyihir') {
+            console.log('Selamat datang di Dunia Proxytia, ' + nama);
+            console.log('Hallo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
+        } else {
+            console.log('Nama harus diisi!')
+        }
+        </script>
+    </body>
+</html>
