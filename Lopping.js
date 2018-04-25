@@ -20,11 +20,11 @@ while (angka1 >= 2) {
 
 //soal-2(for)
 console.log(judul);
-for (var angka2 = 1; angka2 < 20; angka2++); {
+for (var angka2 = 1; angka2 < 20; angka2++) {
     console.log(angka2 + ' - I love coding');
 }
 console.log(judul2)
-for (var angka3 = 20; angka3 > 1; angka3--); {
+for (var angka3 = 20; angka3 > 1; angka3--) {
     console.log(angka3 + ' - I will become fullstack developer');
 }
 
