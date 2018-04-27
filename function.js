@@ -4,7 +4,7 @@ function print(shoutOut) {
     return shoutOut;
 }
 
-console.log(shoutOut()) // Menampilkan "Halo Function!" di console
+console.log(print(shoutOut)) // Menampilkan "Halo Function!" di console
 
 //TUGAS-2
 function calculateMultiply(angka1, angka2) {
