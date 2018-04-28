@@ -1,6 +1,6 @@
 function konversiMenit(menit) {
     var first = menit / 60 ;
-    var round1 = Math.round(first) ;
+    var round1 = Math.floor(first) ;
     var second = menit % 60;
     if (second < 10) {
       scnd = round1 + ':' + '0' + second;
