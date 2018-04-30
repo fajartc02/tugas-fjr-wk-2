@@ -10,7 +10,7 @@ function xo(str) {
       }else if (countainer === 'x'){ // if value of countainer calue x = x++
         x++;
       }
-      longStr--;
+      longStr--; // looping until 0
     }
     // console.log(x)
     // console.log(o)
